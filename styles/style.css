@@ -12,8 +12,8 @@
   font-style: normal;
   transition: all 0.3s ease;
 }
-.inter-normal:hover{
-  color: #1E40AF;
+.inter-normal:hover {
+  color: #1e40af;
 }
 
 * {
@@ -121,6 +121,12 @@ main {
   width: 400px;
   height: 330px;
   border-radius: 48px;
+    transition: all 0.3s ease;
+  overflow: hidden;
+}
+.action img:hover{
+    transform: scale(1.01);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .users {
@@ -241,6 +247,13 @@ main {
   width: 880px;
   height: 390px;
   border-radius: 48px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.focus img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* form section */
